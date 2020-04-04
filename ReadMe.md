@@ -37,13 +37,17 @@ In this project, I have implemented a path planner that is able to create smooth
     
 ### Runing
 Be consider before cloning and building the project, you should download the related [simulator](https://github.com/udacity/self-driving-car-sim/releases/tag/T3_v1.2) which is made by the [Udacity](http://www.udacity.com). 
-1. git clone https://github.com/PooyaAlamirpour/PathPlanning.git
-2. cd PathPlanning
-3. Make a build directory: mkdir build && cd build
-4. Compile: cmake .. && make
-5. Run it: ./path_planning.
+1. Clone this repo. ```git clone https://github.com/PooyaAlamirpour/PathPlanning.git```
+2. ```cd PathPlanning```
+3. Make a build directory: ```mkdir build && cd build```
+4. Compile: ```cmake .. && make```
+5. Run it: ```./path_planning```
 
-Once the code has been built and run successfully, run the simulator. The result is depicted as below:
+Once the code has been built and run successfully, run the simulator. To run the simulator on Mac/Linux, first make the binary file executable with the following command:
+```
+sudo chmod u+x term3_sim.x86_64
+```
+The result is depicted as below:
 
 ![Output](https://github.com/PooyaAlamirpour/KidnappedVehicle/blob/master/Images/Output.png)
 

@@ -51,25 +51,4 @@ The result is depicted as below:
 
 ![Output](https://github.com/PooyaAlamirpour/PathPlanning/blob/master/Images/Output.png)
 
-### Project structure
-The directory structure of this repository is as follows:
-```bash
-root
-|   build.sh
-|   clean.sh
-|   CMakeLists.txt
-|   README.md
-|   run.sh
-|___data
-|   |   
-|   |   map_data.txt
-|___src
-    |   helper_functions.h
-    |   main.cpp
-    |   map.h
-    |   particle_filter.cpp
-    |   particle_filter.h
-```
 
-## Reference
-[]()

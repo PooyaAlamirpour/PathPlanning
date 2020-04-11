@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Path_Planning"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/pooya/Projects/udacity/CarND-Path-Planning-Project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pooya/Projects/udacity/CarND-Path-Planning-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pooya/Projects/udacity/CarND-Path-Planning-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pooya/Projects/udacity/CarND-Path-Planning-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pooya/Projects/udacity/CarND-Path-Planning-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/pooya/Projects/udacity/CarND-Path-Planning-Project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pooya/Projects/udacity/CarND-Path-Planning-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pooya/Projects/udacity/CarND-Path-Planning-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pooya/Projects/udacity/CarND-Path-Planning-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pooya/Projects/udacity/CarND-Path-Planning-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="path_planning">
+				<Option output="/home/pooya/Projects/udacity/CarND-Path-Planning-Project/cmake-build-debug/path_planning" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pooya/Projects/udacity/CarND-Path-Planning-Project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pooya/Projects/udacity/CarND-Path-Planning-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 path_planning"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pooya/Projects/udacity/CarND-Path-Planning-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pooya/Projects/udacity/CarND-Path-Planning-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pooya/Projects/udacity/CarND-Path-Planning-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="path_planning/fast">
+				<Option output="/home/pooya/Projects/udacity/CarND-Path-Planning-Project/cmake-build-debug/path_planning" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pooya/Projects/udacity/CarND-Path-Planning-Project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pooya/Projects/udacity/CarND-Path-Planning-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 path_planning/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pooya/Projects/udacity/CarND-Path-Planning-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pooya/Projects/udacity/CarND-Path-Planning-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pooya/Projects/udacity/CarND-Path-Planning-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/pooya/Projects/udacity/CarND-Path-Planning-Project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pooya/Projects/udacity/CarND-Path-Planning-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pooya/Projects/udacity/CarND-Path-Planning-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pooya/Projects/udacity/CarND-Path-Planning-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pooya/Projects/udacity/CarND-Path-Planning-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/pooya/Projects/udacity/CarND-Path-Planning-Project/src/WayPoint.cpp">
+			<Option target="path_planning"/>
+		</Unit>
+		<Unit filename="/home/pooya/Projects/udacity/CarND-Path-Planning-Project/src/WayPoint.h">
+			<Option target="path_planning"/>
+		</Unit>
+		<Unit filename="/home/pooya/Projects/udacity/CarND-Path-Planning-Project/src/jmt.cpp">
+			<Option target="path_planning"/>
+		</Unit>
+		<Unit filename="/home/pooya/Projects/udacity/CarND-Path-Planning-Project/src/jmt.h">
+			<Option target="path_planning"/>
+		</Unit>
+		<Unit filename="/home/pooya/Projects/udacity/CarND-Path-Planning-Project/src/main.cpp">
+			<Option target="path_planning"/>
+		</Unit>
+		<Unit filename="/home/pooya/Projects/udacity/CarND-Path-Planning-Project/src/vehicle.cpp">
+			<Option target="path_planning"/>
+		</Unit>
+		<Unit filename="/home/pooya/Projects/udacity/CarND-Path-Planning-Project/src/vehicle.h">
+			<Option target="path_planning"/>
+		</Unit>
+		<Unit filename="/home/pooya/Projects/udacity/CarND-Path-Planning-Project/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

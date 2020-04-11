@@ -14,7 +14,7 @@ In this project, I have implemented a path planner that is able to create smooth
   * Windows: [Click here for installation instructions](http://gnuwin32.sourceforge.net/packages/make.htm)
 * gcc/g++ >= 5.4
   * Linux: gcc / g++ is installed by default on most Linux distros
-  * Mac: same deal as make - [install Xcode command line tools]((https://developer.apple.com/xcode/features/)
+  * Mac: same deal as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
   * Windows: recommend using [MinGW](http://www.mingw.org/)
 * [uWebSockets](https://github.com/uWebSockets/uWebSockets)
   * Run either `install-mac.sh` or `install-ubuntu.sh`.
@@ -49,7 +49,7 @@ sudo chmod u+x term3_sim.x86_64
 ```
 The result is depicted as below:
 
-![Output](https://github.com/PooyaAlamirpour/KidnappedVehicle/blob/master/Images/Output.png)
+![Output](https://github.com/PooyaAlamirpour/PathPlanning/blob/master/Images/Output.png)
 
 ### Project structure
 The directory structure of this repository is as follows:

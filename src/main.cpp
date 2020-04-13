@@ -364,6 +364,9 @@ int main() {
                             }
                         }
                     }
+//                    if (car_to_right) cout << "CAR ON THE RIGHT!!!" << endl;
+//                    if (car_to_left) cout << "CAR ON THE LEFT!!!" << endl;
+//                    if (car_just_ahead) cout << "CAR JUST AHEAD!!!" << endl;
 
                     my_car.update_available_states(car_to_left, car_to_right);
 
